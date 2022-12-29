@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(52, 53, 65);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.msg {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(64, 65, 79);
+}
+
+.msgTxt {
+  margin-top: 1rem;
+  color: white;
+}
+
+.avatar {
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+.avatar > svg {
+  background-color: rgb(16, 163, 107);
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+}
+
+.askWrapper {
+  width: 90%;
+  margin: 2rem auto;
+  background-color: rgb(64, 65, 79);
+  border-radius: 8px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.2);
+}
+
+.askInput {
+  background-color: transparent;
+  border: 0;
+  height: 2rem;
+  width: 100%;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.askBtn {
+  color: gray;
+  rotate: 90deg;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
